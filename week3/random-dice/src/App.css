@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#diceContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.fa-die {
+  font-size: 200px;
+  color: blueviolet;
+  margin-right: 20px;
+}
+
+#buttonContainer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  padding: 20px;
+  border-style: none;
+  background-color: blueviolet;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(156, 69, 238);
+}

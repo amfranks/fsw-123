@@ -1,0 +1,114 @@
+header {
+    background-color: #f8f5f2;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.shop-icon {
+    color: #232323;
+    text-decoration: none;
+    padding-left: 1em;
+    transition: .2s;
+    font-size: 1rem;
+}
+
+.shop-icon:hover {
+    color: #078080;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.link {
+    color: #232323;
+    text-decoration: none;
+    transition: .2s;
+    padding-right: 1em;
+}
+
+.link:hover {
+    color: #078080;
+}
+
+@media only screen and (max-width: 350px) {
+    .header {
+        height: 100px;
+    }
+
+    .shop-icon {
+        font-size: .7rem;
+    }
+
+    .header-links {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .shop-icon {
+        font-size: 1.4rem;
+    }
+
+    .header-links {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .shop-icon {
+        font-size: 1.4rem;
+    }
+
+    .header-links {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .shop-icon {
+        color: #232323;
+        text-decoration: none;
+        padding-left: 1em;
+        transition: .2s;
+        font-size: 1.5rem;
+    }
+
+    .header-links {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .shop-icon {
+        font-size: 1.7rem;
+    }
+
+    .header-links {
+        font-size: 1.7rem;
+    }
+}
